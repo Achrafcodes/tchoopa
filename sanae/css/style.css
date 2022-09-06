@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bgColor-1: #e0aaff;
+    --padding: 10px;
+    --primaryColor: #240046;
+}
+
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: blueviolet;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    width: 100%;
+    background: linear-gradient(to top, var(--bgColor-1), var(--primaryColor));
+    background-size: cover;
+    height: 109vh;
+}
+
+span {
+    color: var(--bgColor-1);
+
+}
+
+h2 {
+    padding-top: 2.2rem;
+
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+h1 {
+    color: var(--primaryColor);
+    color: white;
+}
